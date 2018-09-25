@@ -3,6 +3,8 @@ https://github.com/lmovsesjan/Fastcgi-Daemon
 и инструкцию
 https://habr.com/post/216181/
 
+Запускал на виртуалке с Ubuntu 12.04,
+
 компиляция
 g++ HelloFastCGI.cpp -O2 -fPIC -lfastcgi-daemon2 -shared -o libHelloFastCGI.so
 старт сервиса

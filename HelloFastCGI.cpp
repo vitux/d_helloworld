@@ -12,7 +12,7 @@ class HelloFastCGI : virtual public fastcgi::Component, virtual public fastcgi::
         HelloFastCGI(fastcgi::ComponentContext *context) :
                 fastcgi::Component(context)
         {
-            std::cout<<1111<<std::endl;
+
         }
 
         virtual void onLoad()
